@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 253, 186);
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+}
+
+#heading {
+    width: 50%;
+    padding-left: 3rem;
+    padding-top: 1rem
+}
+
+nav {
+    margin-top: 1rem;
+    margin: auto;
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-inline: 1rem;
+}
+
+#banner {
+    background: linear-gradient(to right, rgb(206, 240, 252), rgb(136, 221, 250));
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+#banner #banner-left img {
+    width: 25rem;
+    padding-left: 5rem;
+    margin-left: 5rem;
+}
+
+#banner #banner-right {
+    padding-top: 3rem;
+}
+
+#banner #banner-right h2 {
+    color: red;
+    padding-top: 3rem;
+}
+
+#banner #banner-right h5 {
+    padding-top: 1rem;
+}
+
+#banner #banner-right p {
+    width: 85%;
+}
+
+/* about */
+#title {
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 0.4rem;
+}
+
+#about h2,
+#about h3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#about h5 {
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+#about h5 {
+    text-align: center;
+}
+
+#cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+
+
+#about #cards .subcard {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+#about #cards img {
+    width: 5rem;
+}
+
+#about #cards p {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+/* services */
+#services {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#services #title {
+    padding-top: 1.5rem;
+}
+
+#services h2 {
+    margin-top: 0.5rem;
+}
+
+#services #cards {
+    display: flex;
+    margin-top: 1rem;
+}
+
+#services .subcard {
+    width: 25%;
+    border: 1px solid rgb(216, 216, 252);
+    border-radius: 1rem;
+    margin-inline: 1rem;
+}
+
+#services .subcard h4 {
+    padding-top: 1rem;
+}
+
+#services .subcard p {
+    padding: 0.5rem;
+    opacity: 0.9;
+}
+
+/* contact */
+#contact-body {
+    display: flex;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-color: rgb(209, 244, 249);
+}
+
+#form,
+#address {
+    width: 50%;
+}
+
+#form {
+    width: 30%;
+    height: 30rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    border: 1px solid rgb(181, 221, 249);
+    box-shadow: 5px 5px 25px 5px grey;
+    border-radius: 0.5rem;
+}
+
+#form h3 {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    letter-spacing: 0.6rem;
+    margin-top: 1.5rem;
+}
+
+#form input {
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    outline: none;
+    margin-left: 2rem;
+}
+
+#form #message-box {
+    width: 20rem;
+    height: 8rem;
+    overflow-y: sscroll;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-left: 2rem;
+}
+#form span{
+    color:red;
+}
+
+#address {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+
+}
+
+#address #icons {
+    margin-top: 1rem;
+}
+
+#address #icons i:nth-child(2) {
+    margin: 1rem;
+}
+
+#address #icons i:hover {
+    color: rgb(249, 85, 56);
+}
+
+div button{
+    width:35%;
+    margin-left:2rem;
+    margin-top:2rem;
+    outline: none;
+}
+
+@media only screen and (min-width:200px)and (max-width:800px) {
+    #header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #heading,
+    nav {
+        width: 100%;
+        margin: auto;
+    }
+
+    #heading {
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    #banner {
+        background: linear-gradient(to bottom, rgb(219, 243, 252), rgb(117, 218, 252));
+        padding-bottom: 2rem;
+    }
+
+    #banner #banner-left img {
+        size: 30rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+
+    #banner #banner-right h2 {
+        padding-left: 3rem;
+        padding-top: 0rem;
+
+    }
+
+    #banner #banner-right h5 {
+        padding-left: 3rem;
+    }
+
+    #banner #banner-right p {
+        padding-left: 3rem;
+
+    }
+
+    #banner #banner-right button {
+        width: 30%;
+        margin-left: 5rem;
+    }
+
+    #about #cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #about #title {
+        opacity: 0.7;
+    }
+
+    #about h2,
+    #about h3 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #about h5 {
+        opacity: 0.8;
+        margin-top: 2rem;
+    }
+
+
+    #about h5 {
+        text-align: center;
+    }
+
+    #cards {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #about #cards .subcard {
+        display: flex;
+        width: 100%;
+    }
+
+    #about #cards .subcard img {
+        width: 6rem;
+        margin-left: 2rem;
+    }
+
+    #about #cards div p {
+        width: 90%;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    }
+
+    #services {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #services #cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services .subcard {
+        width: 95%;
+        margin: auto;
+        margin-block: 0.7rem;
+        border: 1px solid rgb(216, 216, 252);
+    }
+
+    #contact-body {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    #form,
+    #address {
+        width: 90%;
+    }
+
+    #address {
+        text-align: center;
+        margin-top: 1.5rem;
+
+    }
+
+
+
+}

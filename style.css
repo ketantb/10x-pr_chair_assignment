@@ -132,18 +132,21 @@ transform: rotateX(-20deg) rotateY(20deg);
 
 @media only screen and (max-width: 480px){
     html{
-        font-size: 42.5%;
+        font-size: 38.5%;
     }
     .cards{
         margin: 5px 0.5px 5px 0.5px;
         border-radius: 7px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .cards-img-block{
+        height: 22rem;
     }
     .chair-img{
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 1px;
-        width: 18rem;
-        height: 18rem;
+        /* width: 18rem;
+        height: 18rem; */
     }
     .like-percent{
         font-size: 8px;

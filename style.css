@@ -10,13 +10,12 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Source Serif 4', serif; */
 }
 
 #card-container{
-    height: 100vh;
-    background-color: #f7f7f7;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -121,9 +120,6 @@ transform: rotateX(-20deg) rotateY(20deg);
 @media only screen and (max-width: 750px) {
     html{
         font-size: 52.5%;
-    }
-    #card-container{
-        height: 100%;
     }
     .cards{
         margin: 2px 2px 2px 2px;

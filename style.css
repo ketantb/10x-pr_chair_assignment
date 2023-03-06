@@ -17,6 +17,7 @@ body{
 #card-container{
     height: 100vh;
     background-color: #f7f7f7;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,6 +122,9 @@ transform: rotateX(-20deg) rotateY(20deg);
     html{
         font-size: 52.5%;
     }
+    #card-container{
+        height: 100%;
+    }
     .cards{
         margin: 2px 2px 2px 2px;
         border-radius: 7px;
@@ -138,15 +142,16 @@ transform: rotateX(-20deg) rotateY(20deg);
         margin: 5px 0.5px 5px 0.5px;
         border-radius: 7px;
         padding-bottom: 15px;
+        height: 32rem;
     }
     .cards-img-block{
-        height: 22rem;
+        /* height: 21px; */
     }
     .chair-img{
         margin-left: 5px;
-        margin-top: 1px;
+        margin-top: 0px;
         /* width: 18rem;
-        height: 18rem; */
+        height: 16rem; */
     }
     .like-percent{
         font-size: 8px;
